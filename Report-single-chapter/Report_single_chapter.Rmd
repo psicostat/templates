@@ -1,5 +1,5 @@
 ---
-title: 'Repor Template'
+title: 'Report Template'
 subtitle: _'Single Chapter'_
 author: 'Psicostat'
 date: "`r format(Sys.time(), '%d %B, %Y')`"
@@ -10,6 +10,7 @@ output:
     toc_float: true
     collapsed: false
     css: ["css/custom.css"]
+    code_download: true
 number_sections: true
 bibliography: bibliography.bib
 csl: apa.csl
@@ -71,13 +72,44 @@ plot(rnorm(10))
 
 See r-package `kableExtra` documentation (link)[https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html] 
 
-
-See Tabele \@ref(tab:cars-table)
+See Table \@ref(tab:cars-table)
 
 ```{r cars-table}
 data(iris)
 
 knitr::kable(iris[1:5,], caption = "Una esempio di tabella")
+```
+
+# Equations
+
+You can also create latex equations with cross referencing using the code as below:
+
+```
+$$
+(\#eq:normal)
+y_i \sim Normal(\mu, \sigma)
+$$
+```
+Then you can link the equation in text in the same way as figures or tables `\@ref(eq:normal)`. See the equation \@ref(eq:normal)
+
+$$
+\begin{equation} (\#eq:normal)
+y_i \sim Normal(\mu, \sigma)
+\end{equation}
+$$
+
+# Extras
+
+You can easily add extra functions to the `rmd` report, see the [**RMarkdown Cookbook**](https://bookdown.org/yihui/rmarkdown-cookbook/).
+
+## Code download
+
+Adding the `code_download: true` to the `yaml` allows to directly download the `rmd` file from the formatted html report. This is very useful on order to share a single file.
+
+```
+output:
+  bookdown::html_document2: 
+    code_download: true
 ```
 
 # APA cls

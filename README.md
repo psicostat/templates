@@ -1,4 +1,4 @@
-# templates
+# Templates
 
 Here we collect different useful templates. In each folder you find a README file with the requirements instructions. Click the *Download* link to get a copy of the required template
 

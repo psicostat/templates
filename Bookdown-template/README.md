@@ -1,6 +1,8 @@
-# Bookdown Psicostat Template
+# Bookdown Psicostat Template ([Download](https://downgit.github.io/#/home?url=https://github.com/psicostat/templates/tree/main/Bookdown-template))
 
 This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+
+See example at https://psicostat.github.io/Introduction2R/
 
 ## Psicostat Template
 
@@ -14,7 +16,7 @@ The following R-packages are required
 ```r
 install.packages("rmarkdown")
 install.packages("bookdown")
-``
+```
 
 Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 

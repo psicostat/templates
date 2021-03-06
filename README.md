@@ -8,6 +8,10 @@ Here we collect different useful templates. In each folder you find a README fil
 - **Bookdown-template** ([Download](https://downgit.github.io/#/home?url=https://github.com/psicostat/templates/tree/main/Bookdown-template)). Website and pdf with automatic deployment using Github-Action. Exaple at https://psicostat.github.io/Introduction2R/.
 - **Report Single Chapter** ([Download](https://downgit.github.io/#/home?url=https://github.com/psicostat/templates/tree/main/Report-single-chapter)). Based on bookdown and apa 7th edition cit format.
 
+## License
+
+Templates are released under the Creative Commons Attribution-ShareAlike 4.0 International Public License ([CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode)) unless noted otherwise.
+
 <p align="center">
 <img src="https://github.com/psicostat/templates/blob/main/images/logo_psicostat.png" height="250px" align= "center">
 </p>
